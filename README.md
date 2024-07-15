@@ -2,7 +2,6 @@
 This repository will contain a new demo for my future web portfolio.
 
 ## Structure
-Of course, here are the sections of the web portfolio in a more summarised form:
 
 1. **Home**
    - Short introduction
