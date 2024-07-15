@@ -2,8 +2,40 @@
 This repository will contain a new demo for my future web portfolio.
 
 ## Structure
-- Start section: Present a brief description of yourself and your skills.
-- Projects section: Showcase your best projects with screenshots, descriptions and links to live websites.
-- Skills section: List your technical and soft skills.
-- Experience section: Describe your work and educational experience.
-- Contact section: Include a contact form and your contact information.
+Of course, here are the sections of the web portfolio in a more summarised form:
+
+1. **Home**
+   - Short introduction
+   - Featured image/video
+   - Call to action
+
+2. **About me**
+   - Biography (About) **Biography**
+   - Experience
+   - Skills & Abilities
+
+3. **Portfolio**
+   - Projects with descriptions and images
+
+4. **Services**
+   - List and description of services
+
+5. **Contact**
+   - Form and contact information
+
+6. **Testimonials**.
+   - Customer Testimonials
+
+7. **CV (Resume)**.
+   - Experience and training
+   - Download CV
+
+8. **Blog (optional)**.
+   - Articles and updates
+
+9. **Footer (optional)**.
+   - Quick Links
+   - Contact information
+   - Social media
+
+## Ideas
