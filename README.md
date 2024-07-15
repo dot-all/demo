@@ -33,7 +33,7 @@ This repository will contain a new demo for my future web portfolio.
    - Articles and updates
 
 9. **Footer (optional)**.
-   - Quick Links
+   - Quick Links 
    - Contact information
    - Social media
 
