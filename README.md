@@ -45,3 +45,4 @@ This repository will contain a new demo for my future web portfolio.
  - Shacdn (maybe)
  - background-gradient like
  - Framer Motion or React-Spring
+ - Depth Maps
