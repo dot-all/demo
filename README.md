@@ -44,3 +44,4 @@ This repository will contain a new demo for my future web portfolio.
  - R3F
  - Shacdn (maybe)
  - background-gradient like
+ - Framer Motion
