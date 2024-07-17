@@ -38,4 +38,5 @@ This repository will contain a new demo for my future web portfolio.
 
 ## Ideas
  - One-page
- - Multi-page + SPA 
+ - Multi-page + SPA
+ - Three.js 
