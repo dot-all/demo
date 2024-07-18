@@ -38,7 +38,6 @@ This repository will contain a new demo for my future web portfolio.
    - CTA
 
 ## Ideas
- - One-page
  - Multi-page + SPA
  - Three.js
  - Text Ripple Effect distortion
