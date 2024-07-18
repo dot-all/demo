@@ -38,7 +38,7 @@ This repository will contain a new demo for my future web portfolio.
    - CTA
 
 ## Ideas
- - Multi-page + SPA
+ - Multi-page + router-dom
  - Text Ripple Effect distortion
  - R3F
  - background-gradient like
