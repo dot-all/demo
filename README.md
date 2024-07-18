@@ -46,4 +46,4 @@ This repository will contain a new demo for my future web portfolio.
  - background-gradient like
  - Framer Motion or React-Spring
  - Depth Maps
- - Route Transition Framer Motion
+ - View Transition Framer Motion
