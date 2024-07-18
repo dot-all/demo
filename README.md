@@ -21,9 +21,6 @@ This repository will contain a new demo for my future web portfolio.
 5. **Contact**
    - Form and contact information
 
-6. **Testimonials**.
-   - Customer Testimonials
-
 7. **CV (Resume)**.
    - Experience and training
    - Download CV
