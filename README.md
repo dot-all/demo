@@ -28,7 +28,7 @@ This repository will contain a new demo for my future web portfolio.
 7. **Blog (journal)**
    - Articles and updates
      
-8. **Footer**.
+8. **Footer**
    - Quick Links 
    - Contact information
    - Social media
