@@ -25,7 +25,7 @@ This repository will contain a new demo for my future web portfolio.
    - Experience and training
    - Download CV
 
-7. **Blog (optional)**.
+7. **Blog (journal)**.
    - Articles and updates
      
 8. **Footer (optional)**.
