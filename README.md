@@ -5,7 +5,6 @@ This repository will contain a new demo for my future web portfolio.
 
 1. **Home**
    - Short introduction
-   - Featured image/video
 
 2. **About me**
    - Biography (About) **Biography**
