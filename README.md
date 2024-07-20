@@ -28,7 +28,7 @@ This repository will contain a new demo for my future web portfolio.
    - Articles and updates
      
 8. **Footer**
-   - Quick Links 
+   - Quick Links ✅
    - Contact information ✅
    - Social media
    - CTA ✅
