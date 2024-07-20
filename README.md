@@ -29,7 +29,7 @@ This repository will contain a new demo for my future web portfolio.
      
 8. **Footer**
    - Quick Links 
-   - Contact information
+   - Contact information ✅
    - Social media
    - CTA ✅
 
