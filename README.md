@@ -31,7 +31,7 @@ This repository will contain a new demo for my future web portfolio.
    - Quick Links 
    - Contact information
    - Social media
-   - CTA
+   - CTA ✅
 
 ## Ideas
  - Multi-page
