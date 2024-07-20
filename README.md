@@ -34,7 +34,7 @@ This repository will contain a new demo for my future web portfolio.
    - CTA ✅
 
 ## Ideas
- - Multi-page
+ - Multi-page ✅
  - Router-dom ✅
  - Text Ripple Effect distortion
  - R3F
@@ -43,5 +43,5 @@ This repository will contain a new demo for my future web portfolio.
  - Depth Maps
  - View Transition Framer Motion
  - Mobile First
- - Navbar -> Dropdown Menu ✅
+ - Navbar: Dropdown Menu ✅
  - Find alternative to mailto
