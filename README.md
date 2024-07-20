@@ -43,5 +43,5 @@ This repository will contain a new demo for my future web portfolio.
  - Depth Maps
  - View Transition Framer Motion
  - Mobile First
- - Navbar -> Dropdown Menu
+ - Navbar -> Dropdown Menu ✅
  - Find alternative to mailto
