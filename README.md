@@ -39,7 +39,7 @@ This repository will contain a new demo for my future web portfolio.
  - Text Ripple Effect distortion
  - R3F
  - background-gradient like
- - Framer Motion
+ - Framer Motion ✅
  - Depth Maps
  - View Transition Framer Motion
  - Mobile First
