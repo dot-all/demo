@@ -41,7 +41,7 @@ This repository will contain a new demo for my future web portfolio.
  - background-gradient like ⏯️
  - Framer Motion ✅
  - Depth Maps ❌
- - View Transition Framer Motion
+ - View Transition Framer Motion ⏯️
  - Mobile First ✅
  - Navbar: Dropdown Menu ✅
  - Find alternative to mailto
