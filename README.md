@@ -40,7 +40,7 @@ This repository will contain a new demo for my future web portfolio.
  - R3F ❌
  - background-gradient like ⏯️
  - Framer Motion ✅
- - Depth Maps
+ - Depth Maps ❌
  - View Transition Framer Motion
  - Mobile First ✅
  - Navbar: Dropdown Menu ✅
