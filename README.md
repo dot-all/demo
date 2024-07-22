@@ -4,7 +4,7 @@ This repository will contain a new demo for my future web portfolio.
 ## Structure
 
 1. **Home**
-   - Short introduction
+   - Short introduction ✅
 
 2. **About me**
    - Biography (About) **Biography**
