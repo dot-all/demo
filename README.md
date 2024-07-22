@@ -18,7 +18,7 @@ This repository will contain a new demo for my future web portfolio.
    - List and description of services
 
 5. **Contact**
-   - Contact information
+   - Contact information ✅
 
 6. **CV (Resume)**
    - Experience and training
