@@ -44,7 +44,7 @@ This repository will contain a new demo for my future web portfolio.
  - View Transition Framer Motion ⏯️
  - Mobile First ✅
  - Navbar: Dropdown Menu ✅
- - Find alternative to mailto
+ - Find alternative to mailto ⏯️
  - Blob ⏯️
  - CSS Morphing ⏯️
  - Lato typo ⏯️
