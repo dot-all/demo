@@ -25,7 +25,7 @@ This repository will contain a new demo for my future web portfolio.
    - Download CV
 
 7. **Blog (journal)**
-   - Articles and updates
+   - Articles and updates ⏯️
      
 8. **Footer**
    - Quick Links ✅
