@@ -49,4 +49,3 @@ This repository will contain a new demo for my future web portfolio.
  - CSS Morphing ⏯️
  - Lato typo ⏯️
  - View Transitions without Framer Motion
- - 
