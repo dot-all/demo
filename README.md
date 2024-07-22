@@ -48,3 +48,4 @@ This repository will contain a new demo for my future web portfolio.
  - Blob ⏯️
  - CSS Morphing ⏯️
  - Lato typo ⏯️
+ - View Transitions without Framer Motion
