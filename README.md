@@ -12,7 +12,7 @@ This repository will contain a new demo for my future web portfolio.
    - Skills & Abilities
 
 3. **Portfolio**
-   - Projects with descriptions and images
+   - Projects with descriptions and images ✅
 
 4. **Services**
    - List and description of services
