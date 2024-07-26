@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Edge */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge (basados en WebKit) */
+}
+
+html, body {
+  scrollbar-width: none; /* Oculta la barra de desplazamiento en navegadores compatibles */
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
