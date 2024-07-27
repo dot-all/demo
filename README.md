@@ -50,3 +50,4 @@ This repository will contain a new demo for my future web portfolio.
  - Lato & Roboto typo
  - View Transitions without Framer Motion
  - Scrollbar progress
+   
