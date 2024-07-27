@@ -46,7 +46,7 @@ This repository will contain a new demo for my future web portfolio.
  - Navbar: Dropdown Menu ✅
  - Find alternative to mailto ✅
  - Blob
- - CSS Morphing ⏯️
+ - CSS Morphing
  - Lato typo ⏯️
  - View Transitions without Framer Motion
  - Scrollbar progress ⏯️
