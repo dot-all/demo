@@ -37,7 +37,7 @@ This repository will contain a new demo for my future web portfolio.
  - Multi-page ✅
  - Router-dom ✅
  - Text Ripple Effect distortion
- - R3F ❌
+ - R3F
  - background-gradient like
  - Framer Motion ✅
  - Depth Maps
