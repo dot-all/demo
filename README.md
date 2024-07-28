@@ -47,7 +47,7 @@ This repository will contain a new demo for my future web portfolio.
  - Find alternative to mailto
  - Blob
  - CSS Morphing
- - Lato & Roboto typo
+ - Lato & Roboto typo ⏯️
  - View Transitions without Framer Motion ⏯️
  - Scrollbar progress ⏯️
    
