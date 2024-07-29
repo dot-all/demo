@@ -4,7 +4,7 @@ This repository will contain a new demo for my future web portfolio.
 ## Structure
 
 1. **Home**
-   - Short introduction ✅
+   - Short introduction
 
 2. **About me**
    - Biography (About) **Biography**
@@ -36,17 +36,18 @@ This repository will contain a new demo for my future web portfolio.
 ## Ideas
  - Multi-page ✅
  - Router-dom ✅
- - Text Ripple Effect distortion ❌
- - R3F ❌
- - background-gradient like ❌
+ - Text Ripple Effect distortion
+ - R3F
+ - background-gradient like
  - Framer Motion ✅
- - Depth Maps ❌
- - View Transition Framer Motion
+ - Depth Maps
+ - View Transition Framer Motion ⏯️
  - Mobile First ✅
  - Navbar: Dropdown Menu ✅
- - Find alternative to mailto ✅
- - Blob
+ - Find alternative to mailto ⏯️
+ - Blob ⏯️
  - CSS Morphing ⏯️
- - Lato typo ⏯️
- - View Transitions without Framer Motion
+ - Lato & Roboto typo ⏯️
+ - View Transitions without Framer Motion ⏯️
  - Scrollbar progress ⏯️
+   
