@@ -31,6 +31,11 @@ const buttonTextVariants: Variants = {
   closedClose: { y: 0 },
 };
 
+const linkVariants: Variants = {
+  hover: { scale: 1, opacity: 1},
+  rest: { scale: 0, opacity: 0 }
+}
+
 const DropDownMenu: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [isHovered, setIsHovered] = useState<boolean>(false);
@@ -83,8 +88,8 @@ const DropDownMenu: React.FC = () => {
         onClick={handleClick}
         onHoverStart={() => setIsHovered(true)}
         onHoverEnd={() => !isOpen && setIsHovered(false)}
-        className="px-4 py-3 rounded-full text-sm font-medium mb-4 flex items-center gap-2 fixed top-6 right-32">
-        <div className="relative h-5 w-12 overflow-hidden">
+        className="px-4 py-3 rounded-full text-sm font-medium mb-4 flex flex-row items-center relative h-full">
+        <div className="relative h-5 w-14 overflow-hidden">
           <motion.div
             className="absolute inset-0 flex flex-col items-center justify-center"
             variants={buttonTextVariants}
@@ -93,7 +98,7 @@ const DropDownMenu: React.FC = () => {
             transition={{ duration: 0.3 }}
           >
             <span className="absolute">MENU</span>
-            <span className="absolute" style={{ top: '100%' }}>CLOSE</span>
+            <span className="absolute" style={{ top: '100%' }}>CERRAR</span>
           </motion.div>
         </div>
         <motion.svg
@@ -114,7 +119,7 @@ const DropDownMenu: React.FC = () => {
       <motion.nav
         initial={false}
         animate={isOpen ? "open" : "closed"}
-        className="fixed right-32 top-20 flex items-end flex-col"
+        className="flex items-end flex-col absolute top-16"
         ref={menuRef}
       >
         <motion.ul
@@ -143,10 +148,30 @@ const DropDownMenu: React.FC = () => {
           style={{ pointerEvents: isOpen ? "auto" : "none" }}
           className="bg-[#FFF] w-72 h-[264px] text-xl font-medium drop-shadow-2xl px-1 py-3"
         >
-          <motion.li className="hover:bg-[#DADFF7]/50 rounded-full px-6 py-4" variants={itemVariants}>HOME</motion.li>
-          <motion.li className="hover:bg-[#DADFF7]/50 rounded-full px-6 py-4" variants={itemVariants}>ABOUT ME</motion.li>
-          <motion.li className="hover:bg-[#DADFF7]/50 rounded-full px-6 py-4" variants={itemVariants}>PORTFOLIO</motion.li>
-          <motion.li className="hover:bg-[#DADFF7]/50 rounded-full px-6 py-4" variants={itemVariants}>CONTACT</motion.li>
+        <motion.li variants={itemVariants}>
+          <motion.a whileHover="hover" initial="rest" href="/" className="flex flex-row justify-between hover:bg-[#DADFF7]/50 rounded-full px-6 py-4">
+          INICIO
+          <motion.svg variants={linkVariants} xmlns="http://www.w3.org/2000/svg" className="h-6" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></motion.svg>
+          </motion.a>
+        </motion.li>
+        <motion.li variants={itemVariants}>
+          <motion.a whileHover="hover" initial="rest" href="/#about-me" className="flex flex-row justify-between hover:bg-[#DADFF7]/50 rounded-full px-6 py-4">
+          SOBRE MÍ
+          <motion.svg variants={linkVariants} xmlns="http://www.w3.org/2000/svg" className="h-6" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></motion.svg>
+          </motion.a>
+        </motion.li>
+        <motion.li variants={itemVariants}>
+          <motion.a whileHover="hover" initial="rest" href="/#portfolio" className="flex flex-row justify-between hover:bg-[#DADFF7]/50 rounded-full px-6 py-4">
+          PORTAFOLIO
+          <motion.svg variants={linkVariants} xmlns="http://www.w3.org/2000/svg" className="h-6" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></motion.svg>
+          </motion.a>
+        </motion.li>
+        <motion.li variants={itemVariants}>
+          <motion.a whileHover="hover" initial="rest" href="/#contact" className="flex flex-row justify-between hover:bg-[#DADFF7]/50 rounded-full px-6 py-4">
+          CONTACTO
+          <motion.svg variants={linkVariants} xmlns="http://www.w3.org/2000/svg" className="h-6" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></motion.svg>
+          </motion.a>
+        </motion.li>
         </motion.ul>
       </motion.nav>
     </>
