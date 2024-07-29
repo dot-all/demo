@@ -28,7 +28,7 @@ export default function Contact() {
 
   return (
     <>
-      <footer className="max-h-[640px] h-[80vh] md:h-[90vh] bg-black w-11/12 xl:w-10/12 mx-auto rounded-[40px] grid grid-rows-3 grid-cols-1 max-w-[1300px]">
+      <footer className="max-h-[640px] h-[80vh] md:h-[90vh] bg-black w-11/12 xl:w-10/12 mx-auto rounded-[40px] grid grid-rows-3 grid-cols-1 max-w-[1300px]" id="contact">
         <motion.section
           ref={ref}
           variants={sectionVariants}
@@ -37,7 +37,7 @@ export default function Contact() {
           transition={{ duration: .8, type: "tween", ease: "easeInOut" }}
           className="flex flex-col items-center justify-end row-span-2 gap-4"
         >
-          <h2 className="text-white text-[40px] md:text-5xl lg:text-6xl xl:text-7xl text-center font-semibold w-3/5 tracking-tighter leading-snug">Hagamos que tu próxima idea cobre vida.</h2>
+          <h2 className="text-white text-[38px] md:text-5xl lg:text-6xl xl:text-7xl text-center font-semibold w-3/5 tracking-tighter leading-snug">Hagamos que tu próxima idea cobre vida.</h2>
           <motion.a
             className="bg-white rounded-full px-4 md:px-2 py-4 text-lg font-medium mt-8 mb-2 md:my-8 flex flex-row relative group items-center justify-center overflow-hidden"
             href="mailto:al.quirozsilva@gmail.com"
@@ -84,10 +84,9 @@ export default function Contact() {
         </motion.section>
         <section className="flex flex-col items-center justify-center gap-10">
           <ul className="font-medium flex flex-row gap-5 md:gap-10 text-white text-sm md:text-base">
-            <li>LinkedIn</li>
-            <li>Exercism</li>
-            <li>Kaggle</li>
-            <li>CodePen</li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/im-allan/">LinkedIn</a></li>
+            <li><a target="_blank" href="https://exercism.org/profiles/dot-all">Exercism</a></li>
+            <li><a target="_blank" href="https://codepen.io/im-allan">CodePen</a></li>
           </ul>
           <p className="font-medium text-white/50">al.quirozsilva@gmail.com</p>
         </section>
