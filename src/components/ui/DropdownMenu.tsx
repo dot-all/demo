@@ -11,17 +11,17 @@ const itemVariants: Variants = {
 };
 
 const iconVariants: Variants = {
-  init: { rotate: 0 },
-  hover: { rotate: 90 },
-  open: { rotate: 90 },
-  closed: { rotate: 0 },
+  init: { rotate: 0, stroke: "#000000", fill: "#000000" },
+  hover: { rotate: 90, stroke: "#000000", fill: "#000000" },
+  open: { rotate: 90, stroke: "#000000", fill: "#000000" },
+  closed: { rotate: 0, stroke: "#000000", fill: "#000000" },
 };
 
 const buttonVariants: Variants = {
-  init: { backgroundColor: "#E4E6EF" },
-  open: { backgroundColor: "#FFFFFF" },
-  hover: { backgroundColor: "#FFFFFF" },
-  closed: { backgroundColor: "#E4E6EF" },
+  init: { backgroundColor: "#E4E6EF", color: "#000000" },
+  open: { backgroundColor: "#e6e7fd", color: "#000000" },
+  hover: { backgroundColor: "#e6e7fd", color: "#000000" },
+  closed: { backgroundColor: "#E4E6EF", color: "#000000" },
 };
 
 const buttonTextVariants: Variants = {
@@ -88,7 +88,7 @@ const DropDownMenu: React.FC = () => {
         onClick={handleClick}
         onHoverStart={() => setIsHovered(true)}
         onHoverEnd={() => !isOpen && setIsHovered(false)}
-        className="px-4 py-3 rounded-full text-sm font-medium mb-4 flex flex-row items-center relative h-full">
+        className="px-4 py-3 rounded-full text-[12px] md:text-sm font-medium mb-4 flex flex-row items-center relative h-full">
         <div className="relative h-5 w-14 overflow-hidden">
           <motion.div
             className="absolute inset-0 flex flex-col items-center justify-center"
@@ -146,28 +146,28 @@ const DropDownMenu: React.FC = () => {
             }
           }}
           style={{ pointerEvents: isOpen ? "auto" : "none" }}
-          className="bg-[#FFF] w-72 h-[264px] text-xl font-medium drop-shadow-2xl px-1 py-3"
+          className="bg-[#f2f4f7] w-72 h-[264px] text-lg md:text-xl font-medium drop-shadow-2xl shadow-2xl px-1 py-3"
         >
         <motion.li variants={itemVariants}>
-          <motion.a whileHover="hover" initial="rest" href="/" className="flex flex-row justify-between hover:bg-[#DADFF7]/50 rounded-full px-6 py-4">
+          <motion.a whileHover="hover" initial="rest" href="/" className="flex flex-row justify-between hover:bg-[#cdd0fb]/50 rounded-full px-6 py-4">
           INICIO
           <motion.svg variants={linkVariants} xmlns="http://www.w3.org/2000/svg" className="h-6" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></motion.svg>
           </motion.a>
         </motion.li>
         <motion.li variants={itemVariants}>
-          <motion.a whileHover="hover" initial="rest" href="/#about-me" className="flex flex-row justify-between hover:bg-[#DADFF7]/50 rounded-full px-6 py-4">
+          <motion.a whileHover="hover" initial="rest" href="/#about-me" className="flex flex-row justify-between hover:bg-[#cdd0fb]/50 rounded-full px-6 py-4">
           SOBRE MÍ
           <motion.svg variants={linkVariants} xmlns="http://www.w3.org/2000/svg" className="h-6" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></motion.svg>
           </motion.a>
         </motion.li>
         <motion.li variants={itemVariants}>
-          <motion.a whileHover="hover" initial="rest" href="/#portfolio" className="flex flex-row justify-between hover:bg-[#DADFF7]/50 rounded-full px-6 py-4">
+          <motion.a whileHover="hover" initial="rest" href="/#portfolio" className="flex flex-row justify-between hover:bg-[#cdd0fb]/50 rounded-full px-6 py-4">
           PORTAFOLIO
           <motion.svg variants={linkVariants} xmlns="http://www.w3.org/2000/svg" className="h-6" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></motion.svg>
           </motion.a>
         </motion.li>
         <motion.li variants={itemVariants}>
-          <motion.a whileHover="hover" initial="rest" href="/#contact" className="flex flex-row justify-between hover:bg-[#DADFF7]/50 rounded-full px-6 py-4">
+          <motion.a whileHover="hover" initial="rest" href="/#contact" className="flex flex-row justify-between hover:bg-[#cdd0fb]/50 rounded-full px-6 py-4">
           CONTACTO
           <motion.svg variants={linkVariants} xmlns="http://www.w3.org/2000/svg" className="h-6" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></motion.svg>
           </motion.a>
