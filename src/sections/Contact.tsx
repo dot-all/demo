@@ -39,10 +39,10 @@ export default function Contact() {
         >
           <h2 className="text-white text-[38px] md:text-5xl lg:text-6xl xl:text-7xl text-center font-semibold w-3/5 tracking-tighter leading-snug">Hagamos que tu próxima idea cobre vida.</h2>
           <motion.a
-            className="bg-white rounded-full px-4 md:px-2 py-4 text-lg font-medium mt-8 mb-2 md:my-8 flex flex-row relative group items-center justify-center overflow-hidden"
+            className={`${isHovered ? 'text-white': 'text-black'} bg-white rounded-full px-4 md:px-2 py-3 text-sm md:text-base font-semibold mt-8 mb-2 md:my-8 flex flex-row relative group items-center justify-center overflow-hidden`}
             href="mailto:al.quirozsilva@gmail.com"
             whileTap={{ scale: 0.9 }}
-            whileHover={{ backgroundColor: "#FEFFBE" }}
+            whileHover={{ backgroundColor: "#0814ec" }}
             onHoverStart={() => setIsHovered(true)}
             onHoverEnd={() => setIsHovered(false)}
           >
@@ -55,7 +55,7 @@ export default function Contact() {
               className="w-[18px] mt-[2px] hidden md:block"
               viewBox="0 0 512 512"
             >
-              <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="48" d="M268 112l144 144-144 144M392 256H100" />
+              <path fill="none" stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="48" d="M268 112l144 144-144 144M392 256H100" />
             </motion.svg>
 
             <motion.span
@@ -64,7 +64,7 @@ export default function Contact() {
               animate={isHovered ? "move" : "start"}
               transition={{ type: "tween", duration: 0.18 }}
             >
-              Contáctame
+              CONTÁCTAME
             </motion.span>
             <motion.svg
               id="contactIcon"
@@ -85,6 +85,7 @@ export default function Contact() {
         <section className="flex flex-col items-center justify-center gap-10">
           <ul className="font-medium flex flex-row gap-5 md:gap-10 text-white text-sm md:text-base">
             <li><a target="_blank" href="https://www.linkedin.com/in/im-allan/">LinkedIn</a></li>
+            <li><a target="_blank" href="https://github.com/dot-all">Github</a></li>
             <li><a target="_blank" href="https://exercism.org/profiles/dot-all">Exercism</a></li>
             <li><a target="_blank" href="https://codepen.io/im-allan">CodePen</a></li>
           </ul>
