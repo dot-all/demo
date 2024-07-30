@@ -24,7 +24,7 @@ export default function ContactButton() {
 
   return (
           <motion.a
-            className="bg-[#2b2e3a] text-white rounded-full font-medium px-3 md:px-2 py-4 h-full text-sm flex flex-row relative group items-center justify-center overflow-hidden z-50"
+            className="bg-[#2b2e3a] text-white rounded-full font-medium px-3 md:px-2 py-4 h-full text-[12px] md:text-sm flex flex-row relative group items-center justify-center overflow-hidden z-50"
             href="mailto:al.quirozsilva@gmail.com"
             whileTap={{ scale: 0.9 }}
             whileHover={{ backgroundColor: "#0814ec" }}
