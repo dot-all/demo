@@ -5,7 +5,7 @@ interface Project {
   name: string;
   img: string;
   stack: string[];
-  url: string; // Añadido para el enlace
+  url: string;
 }
 
 interface ProjectCardProps {
@@ -31,12 +31,12 @@ const PortfolioCard: React.FC<ProjectCardProps> = ({ project, isHovered, onHover
 
   return (
     <a 
-      href={project.url} // Enlace al proyecto
+      href={project.url}
       target="_blank" 
       rel="noopener noreferrer"
-      onMouseEnter={onHoverStart} // Usa onMouseEnter para hover
-      onMouseLeave={onHoverEnd} // Usa onMouseLeave para hover
-      className="block" // Asegúrate de que el enlace sea un bloque para ocupar el espacio de la tarjeta
+      onMouseEnter={onHoverStart}
+      onMouseLeave={onHoverEnd}
+      className="block"
     >
       <motion.div
         ref={ref}
@@ -44,7 +44,7 @@ const PortfolioCard: React.FC<ProjectCardProps> = ({ project, isHovered, onHover
         initial="init"
         animate={isInView ? "show" : "init"}
         transition={{ duration: 0.4, type: "tween", ease: "easeInOut" }}
-        className="flex bg-[#DADFF7] w-full h-[480px] md:h-[620px] rounded-3xl hover:shadow-xl transition-shadow duration-700 overflow-hidden"
+        className="flex bg-[#f2f4f7] w-full h-[480px] md:h-[620px] rounded-3xl hover:shadow-xl transition-shadow duration-700 overflow-hidden"
       >
         <motion.section 
           className="flex flex-col w-full"
@@ -56,7 +56,7 @@ const PortfolioCard: React.FC<ProjectCardProps> = ({ project, isHovered, onHover
           <motion.img 
             alt={`Image of project ${project.name}`}
             animate={isHovered ? "hovered" : "init"}
-            className="w-96 h-72 m-auto"
+            className="w-64 h-48 md:w-96 md:h-72 m-auto"
             initial="init"
             transition={{ duration: 0.45, type: "tween", ease: "easeInOut" }}
             src={project.img}
