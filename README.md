@@ -21,7 +21,7 @@ This repository will contain a new demo for my future web portfolio.
    - Contact information ✅
 
 6. **CV (Resume)**
-   - Experience and training
+   - Experience and training ⏯️
    - Download CV
 
 7. **Blog (journal)**
